@@ -21,12 +21,12 @@ struct HorizontalProduct: View {
                             .overlay(ProgressView())
                     }
                 }
-                .frame(maxWidth: .infinity)   // center horizontally
+                .frame(maxWidth: .infinity)
             }
             .frame(height: imageHeight)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .clipShape(RoundedCornerStyle)
 
-            // TEXTS (left-aligned)
+            // TEXTS
             Text(product.title)
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(.indigo)
@@ -56,9 +56,13 @@ struct HorizontalProduct: View {
                 .shadow(color: .black.opacity(0.06), radius: 10, y: 4)
         )
     }
+
+    private var RoundedCornerStyle: some Shape {
+        RoundedRectangle(cornerRadius: 12)
+    }
 }
 
-// shared price formatter
+// Shared price formatter
 func formatPrice(_ value: Double) -> String {
     let nf = NumberFormatter()
     nf.numberStyle = .currency

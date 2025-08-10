@@ -1,6 +1,6 @@
-# AkakceCase (iOS Version)
+# Case Study (iOS Version)
 
-This is the **SwiftUI** implementation of the Akakce Case study, showcasing:
+This is the **SwiftUI** implementation of the Case study, showcasing:
 - **Featured Products** in a horizontal pager (first 5 items, 2 per page).
 - **All Products** in a vertical grid layout.
 - Data fetched from the [Fake Store API](https://fakestoreapi.com) with a clean MVVM structure.

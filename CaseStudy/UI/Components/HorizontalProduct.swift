@@ -29,7 +29,7 @@ struct HorizontalProduct: View {
             // TEXTS
             Text(product.title)
                 .font(.subheadline.weight(.semibold))
-                .foregroundStyle(.indigo)
+                .foregroundColor(.black)
                 .lineLimit(2)
 
             Text(formatPrice(product.price))

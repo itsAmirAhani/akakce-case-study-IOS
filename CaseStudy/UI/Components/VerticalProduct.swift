@@ -28,7 +28,7 @@ struct VerticalProduct: View {
             // TEXTS (left-aligned)
             Text(product.title)
                 .font(.subheadline.weight(.semibold))
-                .foregroundStyle(.indigo)
+                .foregroundColor(.black)
                 .lineLimit(2)
 
             Text(formatPrice(product.price))

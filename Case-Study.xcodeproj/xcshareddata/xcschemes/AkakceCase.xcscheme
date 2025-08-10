@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "470128A62E46B243006A5BA5"
-               BuildableName = "AkakceCase.app"
-               BlueprintName = "AkakceCase"
-               ReferencedContainer = "container:AkakceCase.xcodeproj">
+               BuildableName = "Case-Study.app"
+               BlueprintName = "Case-Study"
+               ReferencedContainer = "container:Case-Study.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "470128B62E46B244006A5BA5"
-               BuildableName = "AkakceCaseTests.xctest"
-               BlueprintName = "AkakceCaseTests"
-               ReferencedContainer = "container:AkakceCase.xcodeproj">
+               BuildableName = "Case-StudyTests.xctest"
+               BlueprintName = "Case-StudyTests"
+               ReferencedContainer = "container:Case-Study.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "470128C02E46B244006A5BA5"
-               BuildableName = "AkakceCaseUITests.xctest"
-               BlueprintName = "AkakceCaseUITests"
-               ReferencedContainer = "container:AkakceCase.xcodeproj">
+               BuildableName = "Case-StudyUITests.xctest"
+               BlueprintName = "Case-StudyUITests"
+               ReferencedContainer = "container:Case-Study.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "470128A62E46B243006A5BA5"
-            BuildableName = "AkakceCase.app"
-            BlueprintName = "AkakceCase"
-            ReferencedContainer = "container:AkakceCase.xcodeproj">
+            BuildableName = "Case-Study.app"
+            BlueprintName = "Case-Study"
+            ReferencedContainer = "container:Case-Study.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "470128A62E46B243006A5BA5"
-            BuildableName = "AkakceCase.app"
-            BlueprintName = "AkakceCase"
-            ReferencedContainer = "container:AkakceCase.xcodeproj">
+            BuildableName = "Case-Study.app"
+            BlueprintName = "Case-Study"
+            ReferencedContainer = "container:Case-Study.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -56,7 +56,7 @@ struct HomeScreen: View {
                     }
                 }
             }
-            .navigationTitle("Akakce")
+            .navigationBarHidden(true)
             .toolbarTitleDisplayMode(.inline)
             .task { await vm.fetch() }
             .overlay { if vm.isLoading { ProgressView().scaleEffect(1.2) } }

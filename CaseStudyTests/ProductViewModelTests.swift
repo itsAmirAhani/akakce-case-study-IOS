@@ -1,5 +1,5 @@
 import XCTest
-@testable import AkakceCase
+@testable import Case_Study
 
 // A tiny mock that conforms to ProductAPI so we can inject it into the VM.
 private struct MockAPI: ProductAPI {

@@ -19,3 +19,11 @@ This is the **SwiftUI** implementation of the Akakce Case study, showcasing:
   `async/await` used for API calls.
 - **Unit Tested**:  
   `ProductViewModelTests` verify logic without relying on real network calls.
+
+## Tech Stack
+
+**Languages & Frameworks**
+- **Swift** — Main programming language.
+- **SwiftUI** — Declarative UI framework.
+- **Combine** — Reactive state updates via `@Published` and `@StateObject`.
+- **XCTest** — Unit testing framework.
